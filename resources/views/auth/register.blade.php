@@ -68,7 +68,7 @@
                                 {!! RecaptchaV3::field('register') !!}
 
                                 @error('g-recaptcha-response')
-                                <span class="text-danger small" role="alert">
+                                    <span class="text-danger small" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
